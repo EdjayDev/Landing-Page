@@ -1,12 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import navbar from "./components/navbar";
+import Navbar from "./components/navbar";
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen items-center bg-zinc-100 font-sans dark:bg-black">
-      {navbar()}
+      <Navbar />
 
       <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-center px-6 py-20 bg-white dark:bg-black text-center sm:text-left">
         
